@@ -965,7 +965,11 @@ h6 {
 
 /* ==============Review============= */
 .review {
-    padding: 53px 0;
+    padding: 104px 0 52px;
+}
+
+.review__list {
+    display: flex;
 }
 
 .review__inner {
@@ -987,6 +991,10 @@ h6 {
     color: #ff5b2e;
 }
 
+.review__control:nth-of-type(2) {
+    margin-left: auto;
+}
+
 .review__control:hover {
     color: #fff;
     background: #ff5b2e;
@@ -994,10 +1002,16 @@ h6 {
     cursor: pointer;
 }
 
+.review__content {
+    overflow: hidden;
+}
+
 .review-item {
     display: flex;
     align-items: center;
     column-gap: 115px;
+    flex-shrink: 0;
+    width: 100%;
 }
 
 .review-item__media {
@@ -1077,4 +1091,8 @@ h6 {
 .review__dot--active {
     width: 24px;
     background: #ff5b2e;
+}
+
+.review-item__content {
+    margin-top: 28px;
 }
