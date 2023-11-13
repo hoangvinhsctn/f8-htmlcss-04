@@ -1096,3 +1096,33 @@ h6 {
 .review-item__content {
     margin-top: 28px;
 }
+
+/* ===========Blog============= */
+.blog {
+    padding: 78px 0;
+}
+
+.blog__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog__info {
+    width: 350px;
+    margin-right: 74px;
+}
+
+.blog__desc {
+    margin-top: 0px;
+}
+
+.blog__cta {
+    margin-top: 24px;
+    border: 1px solid rgba(255, 91, 46, 0.6);
+    color: #ff5b2e;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1; /* 100% */
+    min-width: 182px;
+}
